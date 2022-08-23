@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: Bemount;
+    src: url(../font/Bemount.otf)
+}
+
+.header {
+    background: #020024;
+    background: linear-gradient(35deg, #020024 0%, #090979 23%, #ffffff 100%);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;  
+}
+
+.logo {
+    margin: 10px;
+    float: left; 
+}
+.logo_name {
+    padding: 20px 20px 20px 5px;
+    font-family: Bemount;
+    font-size: 30px;
+    color: #ffffff;
+    float: left;
+}
+
+.head_logo_down {
+    padding: 15px;
+    display: flex;
+    float: left;
+
+}
+
+.up_position {
+    position: fixed;
+    z-index: 100;
+    background: #090979;
+    background: linear-gradient(90deg, rgba(9,9,121,1) 4%, rgba(254,254,254,0) 50%);
+    width: 100%;   
+}
+
+
+
+.wrapper {
+    padding-top: 80px;
+}
+
+li {
+    display: inline-block;
+    margin: 20px 0px 10px;
+    text-align: center;
+    font-size: 10px;
+    
+}
+.links_down li {
+    padding: 0 30px 0;
+}
+.links a {
+    text-decoration: none; 
+    padding: 10px;     
+}
+.links a:hover {
+    background: #090979;
+    background: linear-gradient(360deg, #0d0dc83e 23%, #dbe1ec09 100%);
+
+}
+.img_back {
+    -webkit-mask-image:-webkit-linear-gradient(left, rgb(0, 0, 0) 0%,rgba(0,0,0,1) 40%,rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient( right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+    }
+.img_back_right {
+    -webkit-mask-image:-webkit-linear-gradient(right, rgb(0, 0, 0) 0%,rgba(0,0,0,1) 40%,rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient( right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+}
+
+
+form button {
+    padding: 10px 30px;
+    background-color: #d23c3c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 120px 40px 120px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+}
+form button:hover {
+    background: rgb(200,39,39);
+    background: linear-gradient(360deg, rgba(200,39,39,1) 13%, rgba(246,116,116,1) 100%);
+}
+
+.text_head  {
+    width: 670px;
+    margin: 30px 57px 0 0;
+    color: #1c1717;  
+    font-size: 19px;
+    padding: 30px;
+}
+h1 {
+    font-family: Bemount;
+    font-size: 70px;
+    width: max-content;
+    margin: 0 auto;
+}
+h2 {
+    font-family: Bemount;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    
+}
+
+.iconSecondScrin {
+    width: auto;
+    height: 150px;
+}
+
+
+h3 {
+    font-family: Bemount;
+    font-size: 35px;
+    color: #090979;
+    width: max-content;
+    margin: 0 auto;
+}
+p  {
+    font-size: 15px; 
+    display: block;
+}
+
+
+.advantages li {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.table_down {
+    padding-bottom: 80px;
+}
+
+
+.bot_down {
+    width: 900px;
+    padding: 20px 50px;
+    background-color: #d23c3c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin: 100px auto 100px auto;
+    font-size: 40px;
+    font-family: Bemount;
+}
+.bot_down:hover {
+    background: rgb(200,39,39);
+    background: linear-gradient(360deg, rgba(200,39,39,1) 13%, rgba(246,116,116,1) 100%);
+}
+
+
+
+footer {
+    width: auto;
+    height: 100px;
+    margin: 0 auto -10px;
+    background: #090979;
+    padding: 0;
+    font-family: Bemount;
+    font-size: 30px;
+    color: #ffffff;
+    text-align-last: center;
+    min-height: calc(100% - 80px);
+}
+a {
+    font-weight: bolder;
+    font-size: 10px;
+    display: block;
+    text-decoration: none;
+}

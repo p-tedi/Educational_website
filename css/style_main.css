@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+@font-face {
+    font-family: Bemount;
+    src: url(../font/Bemount.otf)
+}
+
+.header {
+    background: #020024;
+    background: linear-gradient(35deg, #020024 0%, #090979 23%, #ffffff 100%);
+}
+form button {
+    padding: 10px 30px;
+    background-color: #d23c3c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin: 25px 0 0 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0, auto;
+}
+form button:hover {
+    background: rgb(200,39,39);
+    background: linear-gradient(360deg, rgba(200,39,39,1) 13%, rgba(246,116,116,1) 100%);
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    /* border: 1px solid red; */
+    
+}
+
+.logo {
+    margin: 10px;
+    float: left; 
+}
+.logo_name {
+    padding: 20px 20px 20px 5px;
+    font-family: Bemount;
+    font-size: 30px;
+    color: #ffffff;
+    float: left;
+}
+
+.head_logo_down {
+    padding: 15px;
+    display: flex;
+    float: left;
+
+}
+
+.up_position {
+    position: fixed;
+    z-index: 100;
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 4%, rgba(254,254,254,0) 50%);
+    width: 100%;   
+}
+
+li {
+    display: inline-block;
+    margin: 20px 0px 10px;
+    text-align: center;
+    font-size: 10px;
+    
+}
+.links_down li {
+    padding: 0 30px 0;
+}
+.links a {
+    text-decoration: none; 
+    padding: 10px;     
+}
+.links a:hover {
+    background: #090979;
+    background: linear-gradient(360deg, rgba(9,9,121,0.24163168685442926) 23%, rgba(133,178,255,0.034348773689163115) 100%);
+
+}
+.img_back {
+    margin: 0;
+    padding: 0;
+    -webkit-mask-image:-webkit-radial-gradient( circle  farthest-side, rgb(0, 0, 0) 0%,rgba(0,0,0,1) 40%,rgba(0,0,0,0) 100%);
+    mask-image: linear-gradient( right, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 90%, rgba(0,0,0,0) 100%);
+    /* margin-top: -75px; */
+    width: 800px;
+
+}
+
+
+.text_head  {
+    margin-top: 100px;
+    color: #ffffff;  
+    font-size: 15px;  
+    text-align: center;
+    font-size: 20px;
+}
+h1 {
+    width: 470px;
+    padding-left: 20px;
+    padding-top: 100px;
+    font-family: Bemount;
+    font-size: 70px;
+
+}
+h2 {
+    font-family: Bemount;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.iconSecondScrin {
+    width: auto;
+    height: 150px;
+}
+
+
+h3 {
+    font-family: Bemount;
+    font-size: 35px;
+    color: #090979;
+}
+p {
+    font-size: 15px; 
+    display: block;
+}
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+.secondScrin td  {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 40px;
+}
+.advantages li {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.table_down {
+    padding-bottom: 80px;
+}
+
+
+.threescrin {
+    background: rgb(219, 219, 220);
+    width: 1170px;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+.feedback {
+    width: 1100px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.fb_img {
+    border-radius: 100px; /* Радиус скругления */
+    border: 4px solid #020024; /* Параметры рамки */
+    box-shadow: 0 0 8px #090979; /* Параметры тени */
+    width: 150px;
+    height: auto;
+    margin: 30px 30px 40px 60px;
+    vertical-align: bottom;
+}
+
+.feedback_text {
+    text-align: left;
+    font-size: 20px;
+    font-style: italic;
+    padding-right: 50px;
+}
+
+.bot_down {
+    padding: 20px 50px;
+    background-color: #d23c3c;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    margin: 100px auto 100px auto;
+    font-size: 40px;
+    font-family: Bemount;
+}
+.bot_down:hover {
+    background: rgb(200,39,39);
+    background: linear-gradient(360deg, rgba(200,39,39,1) 13%, rgba(246,116,116,1) 100%);
+}
+
+
+footer {
+    width: auto;
+    height: 100px;
+    margin: 0 auto -10px;
+    background: #090979;
+    padding: 0;
+    font-family: Bemount;
+    font-size: 30px;
+    color: #ffffff;
+    text-align-last: center;
+    min-height: calc(100% - 80px);
+}
+ a {
+    font-weight: bolder;
+    font-size: 10px;
+    display: block;
+    text-decoration: none;
+}

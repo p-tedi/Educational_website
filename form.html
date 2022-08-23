@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og:http://ogp.me/ns# article:http://ogp.me/ns/article#">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\form.css">
+    <link rel="stylesheet" href="css\animate.css">
+        
+   
+    <meta property="og:title" content="AsgarDom"/>
+    <meta property="og:description" content="компании покупки и съема недвижимости"/>
+    <meta property="og:image" content="img\logo1.png"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:description" content="Вы ищите место для уединения от шума города? Или не знаете, куда съездить в отпуск с семьей? Или вы просто ходите купить себе комфортную квартиру? В этом Вам поможет компания АсгарДом ! Наша компания организовала 4 Жилых комплекса для разных целей. Посетите горы Альвхейма, или пляжи Муспельхельма, или же просто останьтесь жить в Мидгаре! мы ждем именно вас!"/>
+    <meta property="og:type" content="profile"/>
+    <meta property="og:url" content= "" />
+
+
+    <title>Заполните форму - АскарДом</title>
+</head>
+<body link="#fff" alink="#fff" vlink="#fff">
+    <header class="header">
+        <div class="container up_position">
+            <div class="head_logo">
+                <img src="img\logo.png" alt="logo" width="40" height="auto" class="logo">
+                <div class="logo_name">AsgarDom</div>
+            </div>
+            
+            <ul class="links">
+                <li><a  href="main.html">Главная</a></li>
+                <li><a href="choice_zone.html">Выбор района</a></li>
+                <li><a href="form.html">Заполнить форму</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <main class="wrapper">
+        <h1 class="animated fadeInDown">Заполните форму для подачи заявки!</h1>
+        <h3 class="animated fadeInDown">Мы свяжемся с Вами для дальшейшей работы</h3>
+        <div class="container" >
+
+            <form action="error.html" method="post"  class="animated fadeIn"> 
+                <fieldset class="animated fadeIn">
+                    <legend style="text-align: center;"><h3>Заполните личные данные</h3></legend>
+                        <table>
+                            <tr>
+                                <td class="text_head">Фамилия</td>
+                                <td>
+                                    <input type="text" placeholder="Иванов" pattern="[А-Яа-яЁё]">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text_head">Имя*</td>
+                                <td>
+                                    <input  type="text"  placeholder="Иван" >
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text_head">Телефон*</td>
+                                <td>
+                                    <input type="tel" placeholder="8 909 789 90 68" pattern="8-([0-9] {3} - [0-9] {3} - [0-9] {2} - [0-9] {2})">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text_head">Электронная почта</td>
+                                <td>
+                                    <input type="email" placeholder="post@yandex.ru">
+                                </td>
+                            </tr>
+                        </table>
+                </fieldset>
+
+                <fieldset>
+                    <legend style="text-align: center;"><h3>Что вас интересует</h3></legend>
+                        <table>
+                            <tr>
+                                <td class="text_head">Какой район Вас интересует*</td>
+                                <td>
+                                    <select name="choose_area" style="height: 35px; font-weight: bolder; ">
+                                        <option value="0" class="text_inside" selected >Выберите название микрорайона</option>
+                                        <option value="1" class="text_inside">Мидгард - городской район</option>
+                                        <option value="2" class="text_inside"  >Муспельхельм - курортный город</option>
+                                        <option value="3" class="text_inside"  >Йотунхейм - горнолыжный район</option>
+                                        <option value="4" class="text_inside"  >Альвхейм - горный санаторий</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text_head">Какой объект Вас интересует*</td>
+                                <td>
+                                    <select name="choose_area" style="height: 35px; font-weight: bolder; " >
+                                        <option value="0" class="text_inside" selected >Выберите объект обращения</option>
+                                        <option value="1" class="text_inside">Комната</option>
+                                        <option value="2" class="text_inside">Студия</option>
+                                        <option value="3" class="text_inside">1-комнатная квартира</option>
+                                        <option value="4" class="text_inside">2-комнатная квартира</option>
+                                        <option value="5" class="text_inside">3-комнатная квартира</option>
+                                        <option value="6" class="text_inside">2-ярусная квартира</option>
+                                        <option value="7" class="text_inside">1-этажный коттедж</option>
+                                        <option value="8" class="text_inside">2-этажный коттедж</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="text_head">Цель обращения*</td>
+                                <td>
+                                    <select name="choose_area" style="height: 35px; font-weight: bolder; " >
+                                        <option value="0" class="text_inside" selected >Выберите цель обращения</option>
+                                        <option value="1" class="text_inside">Снять</option>
+                                        <option value="2" class="text_inside">Купить</option>
+                                        <option value="3" class="text_inside">Забронировать</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="text_head">Цена*</td>
+                                <td>
+                                    <input type="text" placeholder="от" class="half">
+                                    <input type="text" placeholder="до" class="half">
+                                </td>
+                                <td>
+                                   
+                                </td>
+                            </tr>
+                            
+                        </table>
+                </fieldset>
+            </form>
+
+            <div>
+                <form action="itsOkey.html">
+                    <input type="checkbox" id="checkbox" required> Я соглашаюсь на обработку персональных данных и с Лицензией компации АсгарДом. 
+                   <button> <h2> Отправить форму </h2></button>
+                </form>
+           </div>
+
+        </div>
+        <iframe src="license.html" frameborder="0"  width="1350px" height="600px" style=" display: block; margin-left: auto; margin-right: auto; margin-bottom: 0px;"></iframe> 
+
+       
+    </main>
+
+
+
+    <footer>
+        <div class="head_logo head_logo_down">
+            <img src="img\logo.png" alt="logo" width="40" height="auto" class="logo">
+        </div>
+        <ul class="links_down">
+            <li><a  href="main.html">Главная</a></li>
+            <li><a href="choice_zone.html">Выбор района</a></li>
+            <li><a href="form.html">Заполнить форму</a></li>
+            <li><a href="license.html">Лицензия</a></li>
+            <li><a href="main.html">Отзывы</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
